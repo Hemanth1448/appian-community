@@ -1,59 +1,105 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Appian Community Hub</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AppianHub</title>
 
+<style>
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#0f172a;
+    color:white;
+}
+
+header{
+    background:#111827;
+    padding:20px;
+    text-align:center;
+}
+
+.hero{
+    text-align:center;
+    padding:100px 20px;
+}
+
+.hero h1{
+    font-size:50px;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:20px;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:12px 24px;
+    background:#2563eb;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+}
+
+.features{
+    display:flex;
+    gap:20px;
+    justify-content:center;
+    flex-wrap:wrap;
+    padding:50px 20px;
+}
+
+.card{
+    background:#1e293b;
+    padding:20px;
+    width:250px;
+    border-radius:10px;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#111827;
+}
+</style>
+
+</head>
 <body>
 
 <header>
-    <h1>Appian Community Hub</h1>
-    <p>Connect • Learn • Grow</p>
+    <h2>AppianHub</h2>
 </header>
 
-<nav>
-    <a href="#about">About</a>
-    <a href="#jobs">Jobs</a>
-    <a href="#interview">Interview Questions</a>
-    <a href="#contact">Contact</a>
-</nav>
+<section class="hero">
+    <h1>Global Community for Appian Professionals</h1>
+    <p>Learn • Connect • Grow • Get Hired</p>
 
-<section id="about">
-    <h2>About Us</h2>
-    <p>
-        A platform for Appian Developers,
-        Architects and Administrators.
-    </p>
+    <a href="#" class="btn">Join Community</a>
 </section>
 
-<section id="jobs">
-    <h2>Latest Appian Jobs</h2>
-    <ul>
-        <li>Senior Appian Developer - Deloitte</li>
-        <li>Lead Appian Consultant - PwC</li>
-        <li>Appian Architect - Accenture</li>
-    </ul>
-</section>
+<section class="features">
 
-<section id="interview">
-    <h2>Interview Questions</h2>
+    <div class="card">
+        <h3>Interview Questions</h3>
+        <p>500+ Appian interview questions.</p>
+    </div>
 
-    <h3>Q: What is Record Sync?</h3>
-    <p>Record Sync stores source data in Appian.</p>
+    <div class="card">
+        <h3>Jobs</h3>
+        <p>Latest Appian opportunities.</p>
+    </div>
 
-    <h3>Q: Difference between Process and Record?</h3>
-    <p>Process handles workflow, Record handles data.</p>
-</section>
+    <div class="card">
+        <h3>Tutorials</h3>
+        <p>Record Types, Integrations and SAIL.</p>
+    </div>
 
-<section id="contact">
-    <h2>Join Community</h2>
-    <p>Email: appiancommunity@gmail.com</p>
 </section>
 
 <footer>
-    <p>© 2026 Appian Community Hub</p>
+    © 2026 AppianHub
 </footer>
 
 </body>
